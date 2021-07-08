@@ -1,0 +1,13 @@
+* ArtiQ ECW
+  This project has =NOTHING= to do with ArtiQ or the Sinara hardware.
+  However it hosts the (sloppy) Arduino Nano C++ code (PlatformIO) I used for creating an /ArtiQ-crate/ like assembly for a
+  mini-Game after the PhD defense of a (french) collegue.
+
+  Behaviour:
+  - System starts up with USSR anthem (the ArtiQ people had a tendency to name their devices after russian cities like Myrni, Urukul etc) from a Piezo-Speaker
+  - The LED flashes in the russian-flag colors.
+  - The PhD defendant has now to connect the individual sub-boxes to the "Kassler" (Kasli) box
+  - Depending on how many are connected correctly, the Piezo-Beeper will make a noise. As closes he gets, the LED changes it's colors in the order of the french flag (and the piezo speaker noise gets shorter)
+  - When all sub components are correctly connected, the french national anthem plays and the LED now shows the french flag colors in order.
+
+  [[./assets/crate.jpg]]
